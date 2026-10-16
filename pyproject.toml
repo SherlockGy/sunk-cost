@@ -1,0 +1,17 @@
+[project]
+name = "sunk-cost"
+version = "2.0.0"
+description = "心理学短片《沉没成本》：为什么你应该放下它。平面海报风格动画 + 程序化配乐 + MiniMax 旁白"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "skia-python",
+    "scipy",
+    "pillow",
+    "pyloudnorm",
+    "tinysoundfont",
+]
+
+[tool.uv]
+# 这是脚本集合，不作为 Python 包安装
+package = false

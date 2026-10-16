@@ -1,0 +1,20 @@
+# 环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# 渲染中间产物
+out/chunks/
+out/preview/
+out/.release/
+out/mix.wav
+out/music_only.wav
+out/stems_rms.npy
+out/*_母版.mp4
+
+# 成片体积超过 GitHub 单文件限制，作为 Release 附件上传（或改用 Git LFS）
+out/*.mp4
